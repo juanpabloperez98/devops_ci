@@ -14,7 +14,7 @@ import lombok.Data;
  * @author sotobotero
  */
 @Data
-@ApiModel(description = "This model represent a Invoice data that user receive when make a request method" )
+@ApiModel(description = "This model represent a Invoice data that user receive when make a request method " )
 public class InvoiceRequest {
     
     @ApiModelProperty(name = "customer", required = true,example = "1", value = "Unique Id of customer taht represent the owner of invoice")
